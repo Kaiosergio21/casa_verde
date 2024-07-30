@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x:hidden;
+}
+
+.linha{
+    font-size: 40px;
+}
+
+.foto_principal{
+    margin-left: -200px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.principal-icon {
+    width: 200px;
+    height: 100px;
+    margin-left: -50px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.top-bar {
+    background-color: #188d00;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-toggle {
+    background-color: #188d00;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Escondido inicialmente */
+    background-color: #188d00;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px; /* Espaço para o topo da barra */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+main {
+    margin-top: 60px; /* Para evitar que o conteúdo fique oculto sob a barra fixa */
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+/* Classe para mostrar a sidebar */
+.sidebar.show {
+    left: 0;
+}
+
+.casa_title{
+     margin-left: 350px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 150px;
+}
+
+.foto_principal{
+
+    width: 87rem;
+    height: 300px;
+    
+}
+
+section{
+
+    margin-top: -50px;
+    
+}
+
+.sobre{
+
+    margin-left: 150px;
+}
+
+.sobre_texto{
+
+    margin-left: 150px;
+}
+
+.description{
+
+    display: flexbox;
+    flex-direction: column;
+    background: #188d00;
+    padding-left: 170px;
+    width: 100rem;
+    height: 100px;
+    padding-bottom: 17%;
+   
+
+    
+}
+
+.itens{
+    
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 50px ;
+}
+
+.itens_titulo{
+    color: white;
+    margin-left: 20px;
+  
+}
